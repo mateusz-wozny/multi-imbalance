@@ -56,11 +56,6 @@ documentation = "https://github.com/damian-horna/multi-imbalance/blob/master/REA
 addopts = "--cov=."
 testpaths = ["tests"]
 
-[tool.setuptools.packages.find]
-where = ["multi_imbalance"]  
-include = ["multi_imbalance*"] 
-exclude = ["tests*"] 
-namespaces = false 
 
 [tool.black]
 line-length = 140
